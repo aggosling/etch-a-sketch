@@ -1,0 +1,29 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 320px;
+    border: 4px solid black;
+    box-shadow: darkslategrey 0 3px 8px;
+}
+
+.header {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+button {
+    height: 50px;
+    padding: 10px;
+    flex-shrink: 0;
+}
